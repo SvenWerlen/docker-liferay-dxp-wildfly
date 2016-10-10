@@ -1,12 +1,8 @@
 # docker-liferay-dxp-wildfly
-Docker image for Liferay DXP on Wildfly (JBoss)
+Docker images for Liferay DXP on Wildfly (JBoss)
 
-See: https://hub.docker.com/r/dorgendubal/liferay-dxp-wildfly/
+* **base**: base image with Liferay default configuration
+* **quebec**: image for demo'ing/testing purposes in Québec
+	* Language: fr_CA/en_CA
+	* Database: PostgreSQL
 
-## Build docker image
-
-docker build -t liferay-dxp-wildfly .
-
-## Run docker image
-
-docker run -it -p 8080:8080 liferay-dxp-wildfly
