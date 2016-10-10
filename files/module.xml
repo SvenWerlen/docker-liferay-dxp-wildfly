@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<module name="com.liferay.portal" xmlns="urn:jboss:module:1.0">
+	<resources>
+		<resource-root path="com.liferay.registry.api-1.1.1.jar" />
+		<resource-root path="hsql.jar" />
+		<resource-root path="portal-kernel.jar" />
+		<resource-root path="portlet.jar" />
+	</resources>
+	<dependencies>
+		<module name="ibm.jdk" />
+		<module name="javax.api" />
+		<module name="javax.mail.api" />
+		<module name="javax.servlet.api" />
+		<module name="javax.servlet.jsp.api" />
+		<module name="javax.transaction.api" />
+	</dependencies>
+</module>
