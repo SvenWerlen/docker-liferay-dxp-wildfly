@@ -1,0 +1,2 @@
+CREATE USER admin WITH PASSWORD 'admin123';
+GRANT ALL ON DATABASE lportal TO admin;
